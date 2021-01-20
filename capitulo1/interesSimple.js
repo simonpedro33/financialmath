@@ -12,9 +12,9 @@ const tasaInteres = (interes, capital, tiempo) => {
   };
 
 // Interés con tasa Base a una unidad monetaria (Calcular Monto Inicial)
-  const calcularMontoInicial = (tasa, capital, tiempo) => {
+  const calcMontoInicial = (tasa, capital, tiempo) => {
     const interes = capital * (tasa / 100) * (tiempo);
     return interes.toFixed(2);
   };
 
-module.exports = { interesSimple, tasaInteres, calcularMontoInicial }; 
+module.exports = { interesSimple, tasaInteres, calcMontoInicial }; 

@@ -1,4 +1,4 @@
-const {interesSimple, tasaInteres, calcularMontoInicial} = require('./interesSimple');
+const {interesSimple, tasaInteres, calcMontoInicial} = require('./interesSimple');
 
 //#1 EJERCICIO 1.2
 //Un pequeño comerciante invierte 1000, después de un año recibe la cantidad de $1200.00 por su inversión.
@@ -10,4 +10,4 @@ console.log('El Interés', '$' + interesSimple(valorFuturo = 1200, valorPresente
 console.log('Tasa de Interés', tasaInteres(interes = 200, capital = 1000, tiempo = 1) + '%')
 
 // Calcular el monto inicial
-console.log('calcular Monto Inicial', '$' + calcularMontoInicial(tasa = 20, capital = 1000, tiempo = 1))
+console.log('calcular Monto Inicial', '$' + calcMontoInicial(tasa = 20, capital = 1000, tiempo = 1))
