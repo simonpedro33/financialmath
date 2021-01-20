@@ -1,2 +1,2 @@
-# financialmath
-Simple Financial Math Formulas
+# financialmathJS
+An open-source library of Simple Financial Math Formulas in JS
